@@ -1,6 +1,6 @@
 # AE TLF Generation Using SDTM/ADaM Datasets (Clinical R-to-SAS Project)
 
-This project demonstrates how to prepare SDTM and ADaM datasets using R, then analyze them using SAS to generate safety tables, listings, and figures (TLFs) for a clinical study. It also includes traceability and define documentation needed for regulatory submission.
+This project demonstrates how to prepare SDTM and ADaM datasets using R, then analyze them using SAS to generate safety tables, listings, and figures (TLFs) for a clinical study. It also includes define documentation needed for regulatory submission.
 
 ## Project Scope
 
@@ -23,10 +23,8 @@ clinical-tlf-ae/
 ├── sas_programs/
 │ ├── tlf_ae_summary.sas # SAS code for TLFs
 │ ├── define.sas # SAS code for creating Define XML
-│ └── traceability.sas # Traceability table generation
 ├── documents/
 │ ├── define_metadata.xlsx # Metadata spreadsheet used for Define XML
-│ └── traceability.docx # Word doc with traceability mappings
 └── README.md
 
 
@@ -38,7 +36,7 @@ clinical-tlf-ae/
 
 ## Supporting Docs
 Define Metadata: Contains all variable attributes for SDTM and ADaM datasets (origin, label, type, controlled terms).
-Traceability Table: Shows source-to-target mappings for derived ADaM variables from SDTM domains.
+
 
 ## Getting Started
 Clone the repo
